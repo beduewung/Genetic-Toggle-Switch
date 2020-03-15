@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="{{ url_for('static', filename='js/toggle-switch.js') }}"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+
+    <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toggle Switch</title>
+</head>
+<body>
+    <div id="title" class="card"><h1>My Toggle Switch</h1></div>
+    <div id="table-wrapper">
+    <table>
+        <tr>
+            <td><div id="controls" class="card">
+                <div class="controls-row">
+                    <div class="btn-label vrtall">IGTG</div>
+                    <label class="switch vrtall">
+                        <input id="checkbox1" type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                    <button id="button-1" class="toggle-btn vrtall"></button>
+                </div>
+                <div class="controls-row">
+                    <div class="btn-label vrtall">aTc</div>
+                    <label class="switch vrtall">
+                        <input id="checkbox2" type="checkbox">
+                        <span class="slider round"></span>
+                      </label>
+                    <button id="button-2" class="toggle-btn vrtall"></button>
+                </div>
+            </div></td>
+            <td><div id="screen" class="card"></div></td>
+        </tr>
+        <tr>
+            <td><div id="graph1" class="card"></div></td>
+            <td><div id="graph2" class="card"></div></td>
+        </tr>
+    </table>
+    </div>
+</body>
+</html>
