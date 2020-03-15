@@ -113,8 +113,8 @@ function ready(){
         y: [[data["pL"]], [data["pT"]]]
       }, [0, 1])
 
-      var red = Math.floor((data["pL"] / data["pT"]) * 255)
-      var blue = Math.floor((data["pT"] / data["pL"]) * 255)
+      var blue = Math.floor((data["mL"] / data["mT"]) * 255)
+      var red = Math.floor((data["mT"] / data["mL"]) * 255)
       screen.style.backgroundColor = `rgba(${red}, 0, ${blue}, .8)`
       console.log(`rgb(${red}, 0, ${blue})`);
       
