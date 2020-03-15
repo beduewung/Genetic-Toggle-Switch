@@ -4,6 +4,8 @@ A small python powered web application simulating a genetic toggle switch behavi
 ## Installation
 1. Clone the repo
 `git clone https://github.com/severinferard/Genetic-Toggle-Switch`
+2. Install packages
+`pip3 install matplotlib Flask flask_cors`
 
 ## Usage
 1. `CD` into the cloned directory
