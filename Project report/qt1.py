@@ -1,4 +1,4 @@
-dmLdt = k_mLb + k_mLa * 1/(1+((pT/theta_T)**n_T)) - gamma_mL * mL 
+dmLdt = k_mLb + k_mLa * 1/(1+((pT/theta_T)**n_T)) - gamma_mL * mL
     
 dpLdt = k_pL * mL - gamma_pL * pL
     
