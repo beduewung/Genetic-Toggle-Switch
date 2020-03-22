@@ -76,7 +76,7 @@ def draw_phase_space (args):
     # plot the vector field in the protein state space
     plt.quiver(LacI_vector, TetR_vector, aux1, aux2)
 
-    ## Part 2: draw the LacI and TetR nullclines in the protein state space, using a steady state approximation for mRNAs
+    ## Part 2: draw the LacI and TetR nullclines in the protein state space, using a steady state approximation for the mRNAs
     LacI_vector= np.linspace(0,2000,30)
     TetR_vector= np.linspace(0,2000,30)
 
