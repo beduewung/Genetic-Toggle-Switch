@@ -1,6 +1,10 @@
 # Genetic-Toggle-Switch
 A small python powered web application simulating a genetic toggle switch behaviour.
 
+<p align="center">
+<img src="genetictoggleswitch.gif"/>
+</p>
+
 ## Installation
 1. Clone the repo
 `git clone https://github.com/severinferard/Genetic-Toggle-Switch`
